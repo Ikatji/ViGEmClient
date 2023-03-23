@@ -466,7 +466,7 @@ PVIGEM_TARGET vigem_target_x360_alloc(void)
 		return nullptr;
 
 	target->VendorId = 0x045E;
-	target->ProductId = 0x028E;
+	target->ProductId = 0x029E; // Changed 28E into 29E
 
 	return target;
 }
